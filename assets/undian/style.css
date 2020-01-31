@@ -1,0 +1,368 @@
+body{
+	overflow: hidden;
+}
+.hidden{
+	display:none;
+}
+.logo_rsb{
+	width:200px;
+	height:80px;
+}
+.logo_rsb img{
+	height:80px;
+	width:150px;
+}
+.logo-daftar{
+	width:200px;
+	height:80px;
+	padding:50px 0 0px 0;
+}
+.logo-daftar img{
+	height:80px;
+	width:150px;
+}
+.main-area{
+	background:#FFFFFF url(images/layout_frame.png) no-repeat;
+	background-position: absolute;
+	background-size: 60% 100%;
+}
+.left-section{
+	background:#FFFFFF;
+	width:60%;
+	margin-top:40px;
+	margin-bottom: 0px;
+}
+.left-section-rumah{
+	background:#F3F3F3 url(images/daftar/Rumah.png) no-repeat;
+	width:70%;
+	padding-top:50px;
+	margin-bottom: 0px;
+}
+.left-section-motor{
+	background:#F3F3F3 url(images/daftar/Motor.png) no-repeat;
+	width:60%;
+	padding-top:50px;
+	margin-bottom: 0px;
+}
+.left-section-mesin_cuci{
+	background:#F3F3F3 url(images/daftar/Mesin_cuci.png) no-repeat;
+	width:60%;
+	padding-top:50px;
+	margin-bottom: 0px;
+}
+.left-section-tvled{
+	background:#F3F3F3 url(images/daftar/Tvled.png) no-repeat;
+	width:60%;
+	padding-top:50px;
+	margin-bottom: 0px;
+}
+.left-section-kiri{
+	background:#F3F3F3;
+	width:50%;
+	margin-bottom: 0px;
+	padding: 0 0 0 0px;
+}
+.right-section-mobil{
+	background:#F3F3F3 url(images/daftar/Mobil.png) no-repeat;
+	width:50%;
+	padding-top:50px;
+	margin-bottom: 0px;
+	background-position: 100% 100%;
+}
+.right-section-daftar{
+	background:#F3F3F3;
+	width:50%;
+	margin-bottom: 0px;
+}
+.right-section-umroh{
+	background:#F3F3F3 url(images/daftar/Umroh.png) no-repeat;
+	width:50%;
+	padding-top:50px;
+	margin-bottom: 0px;
+	background-position: 100% 0%;
+}
+.right-section-kulkas{
+	background:#F3F3F3 url(images/daftar/Kulkas.png) no-repeat;
+	width:50%;
+	padding-top:50px;
+	margin-bottom: 0px;
+	background-position: 100% 0%;
+}
+.right-section-smartphone{
+	background:#F3F3F3 url(images/daftar/Smartphone.png) no-repeat;
+	width:50%;
+	padding-top:50px;
+	margin-bottom: 0px;
+	background-position: 100% 0%;
+}
+.right-section-pulsa{
+	background:#F3F3F3 url(images/daftar/Pulsa.png) no-repeat;
+	width:50%;
+	padding-top:50px;
+	margin-bottom: 0px;
+	background-position: 100% 50%;
+}
+.tabel-kanan{
+	padding: 100px 0 0 0;
+	background: url(images/daftar/kanan.png) no-repeat;
+	background-size: 80%;
+	background-position: 100% 100%;
+	height: 700px;
+}
+.tabel-kiri{
+	padding: 0px 0 0 0;
+	background: url(images/daftar/kiri.png) no-repeat;
+	background-position: 0% 0%;
+	height: 500px;
+}
+.konten-kiri{
+	padding-left: 100px;
+}
+.kolom_pemenang{
+	margin : 20px 20px 10px 0px;
+}
+.kolom_pemenang h3{
+	font-weight: 100;
+}
+.kolom_pemenang p{
+	font-size: 20pt;
+	font-weight: bolder;
+	padding-left: 0px;
+}
+.layout_tabel_pemenang{
+	margin: 100px 0 0 0;
+}
+.layout_tabel_pemenang_kiri{
+	margin: 80px 0 0 0;
+}
+.display-table{
+	height: auto;
+}
+.display-table-cell{
+	display: block;
+	padding-top: 50px;
+}
+.left-section .main-content{
+	padding: 0px 40px 20px 0px;
+}
+
+.main-content, .title{
+	color:#20565B;
+	font-family:arial,sans-serif,times;
+	font-weight:bold;
+	letter-spacing: 1;
+	padding:0px 50px 10px 0px;
+}
+.main-content p{
+	color:#999999;
+	margin-bottom:0px;
+	font-family:arial,sans-serif,times;
+	width:90%;
+	padding:0px 0px 20px 0px;
+}
+.nomor_undian{
+	width: 100px;
+	height:100px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	border-radius:50%;
+	border:10px solid #F2F2F2;
+	float:left;
+	color: #2B5559;
+}
+.clear{
+	clear: both;
+}
+.btn_undian{
+	background: #2B5559;
+	margin-top: 30px;
+	font-weight: 900;
+	text-align: center;
+	border-radius: 5px;
+	color:#FFFFFF;
+	width:200px;
+	box-shadow: 10px 10px 10px #CECECE;
+	cursor: pointer;
+}
+.btn_stop_undian{
+	background: #DFAF4A;
+	margin-top: 30px;
+	font-weight: 900;
+	text-align: center;
+	border-radius: 5px;
+	color:#FFFFFF;
+	width:200px;
+	box-shadow: 10px 10px 10px #CECECE;
+	cursor: pointer;
+	display:none;
+}
+.btn_pemenang{
+	background: #DFAF4A;
+	margin-top: 30px;
+	font-weight: 900;
+	text-align: center;
+	border-radius: 5px;
+	color:#FFFFFF;
+	width:200px;
+	box-shadow: 10px 10px 10px #CECECE;
+	cursor: pointer;
+	display:none;
+	text-align: center;
+}
+.footer_social{
+	color: #777777;
+	position: relative;
+	margin-top:100px;
+	padding: 0 0 0 0px;
+}
+.slider_layout{
+	width:40%;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 90%;
+  width: auto;
+  margin-top: -22px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  font-family: arial,sans-serif;
+  font-size: 20pt;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: #7C9098;
+  opacity: 0.7;
+}
+.prev {
+  left: 100;
+  border-radius: 3px 0 0 3px;
+  background-color: #7C9098;
+  opacity: 0.7;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #54656B;
+  opacity:1;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Caption text */
+.caption_text {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  background-color: #859D9F;
+  top: 60px;
+  padding:10px 50px 10px 100px;
+  font-size: 12pt;
+  opacity: 0.8;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+.detail_event{
+	position:absolute;
+	top:65%;
+	right:0;
+	padding:20px 130px 20px 30px;
+	background-color: #859D9F;
+	opacity: 0.8;
+	color:#FFFFFF;
+	font-family: Roboto,arial,sans-serif;
+}
+.detail_event h3,h4,h5{
+	font-weight: bold;
+	opacity:1;
+}
+.detail_event p{
+	color:#FFFFFF;
+	font-family: arial,sans-serif;
+	opacity:1;
+}
+.detail_event span{
+	width:30px;
+	opacity:1;
+}
+.daftar_pemenang{
+	background:#F3F3F3 url(images/daftar/Background.png) no-repeat;
+	background-position: absolute;
+	background-size: 100% auto;
+}
+.center-section{
+	width:100%;
+	margin:0 auto;
+}
+.ketentuan{
+	font-size:10pt;
+	padding:20px 0 0 0;
+}
