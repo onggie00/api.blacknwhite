@@ -1,70 +1,23 @@
 ###################
-What is CodeIgniter
+API Description
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+This API used for Black and White Single Page Application (SPA). you will need this API if using my last project exam Black and White SPA. This API package contains :
+1. API for Barbershop
+2. API for Stylist
+3. API for Queue System
+4. API for Hairstyle
+5. API for Highlight (News and Promos)
+6. API for Login
+7. API for Register
+8. API for Member
+9. API for Favourite Hairstyle
+10. API for Hairstyle Category
 
-*******************
-Release Information
-*******************
+All of this API Package required for Black and White SPA Project to get and post data acquired from Filled Form on Frontpage. APIs will processing that data and store it on Database. this API using RESTful API concept and Codeigniter based. 
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+This API is also Helps The React Service Worker so this website can store cache and operated in offline mode and some feature can be accessed offline without any internet connection. But the client still need the internet Connection to access primary feature such as Queue system, News and Promos and Login Register.
 
-**************************
-Changelog and New Features
-**************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+My biggest thanks for iSTTS and all my friends, 
+All your comment really help me to make this SPA.
